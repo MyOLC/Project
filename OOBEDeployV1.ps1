@@ -337,4 +337,6 @@ Step-oobeUpdateWindows
 # Invoke-Webhook
 Step-oobeRestartComputer
 Step-oobeStopComputer
+Write-Host -ForegroundColor DarkGray "Executing Cleanup Script"
+Start-Process PowerShell -ArgumentList "-NoL -C Invoke-WebPSScript https://raw.githubusercontent.com/MyOLC/OSDCloud/Main/CleanUp.ps1" -Wait
 #=================================================
