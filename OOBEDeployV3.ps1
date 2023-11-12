@@ -21,7 +21,7 @@ $Global:oobeCloud = @{
     oobeAddCapabilityName = 'GroupPolicy','ServerManager','VolumeActivation'
     oobeUpdateDrivers = $false
     oobeUpdateWindows = $false
-    oobeRestartComputer = $true
+    oobeRestartComputer = $false
     EmbeddedProductKey = $false
     oobeStopComputer = $false
 }
